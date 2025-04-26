@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  width: 300px;
+  height: 220px; /* Yükseklik artırıldı */
+}
+
+.popup-content {
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #cccccc;
+}
+
+.action-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.settings-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.settings-link:hover {
+  text-decoration: underline;
+}
+
+.info {
+  font-size: 13px;
+  color: #999999;
+  margin-top: 10px;
+}

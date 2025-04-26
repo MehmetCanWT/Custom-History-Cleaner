@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "History Wiper",
+  "version": "1.0",
+  "description": "Clean your browsing history based on custom settings.",
+  "permissions": ["history", "storage", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "action": {
+    "default_popup": "index/popup.html",
+    "default_icon": {
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png",
+      "128": "icons/icon_128.png"
+    }
+  },
+  "options_page": "index/options.html",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  }
+}
